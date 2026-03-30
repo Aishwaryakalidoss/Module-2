@@ -24,17 +24,20 @@ To write a Python program to check the relation between two numbers — whether 
 ### PROGRAM
 
 ```
-
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+x = int(input())
+y = int(input())
+z = int(input())
+expression = lambda x, y, z: (x + 10) + (y + 2) * z
+print(expression(x, y, z))
 ```
 
 ### OUTPUT
 
-```
+<img width="365" height="276" alt="image" src="https://github.com/user-attachments/assets/8807e29f-0baa-4447-a016-f56be7c11ceb" />
 
-```
 
 ### RESULT
+Thus, the Python program to calculate the value of the expression (x + 10) + (y + 2) * z using a lambda function has been successfully executed and the output is verified.
 
-```
-
-```
