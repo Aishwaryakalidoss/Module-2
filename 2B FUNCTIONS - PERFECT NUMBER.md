@@ -22,11 +22,24 @@ To write a Python program to check if a number is a Perfect number using the con
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+def primeNumber(n):
+    if n <= 1:
+        print("Given number", n, "is not a Prime Number")
+        return
+    for i in range(2, n // 2 + 1):
+        if n % i == 0:
+            print("Given number", n, "is not a Prime Number")
+            return
+    print("Given number", n, "is a Prime Number")
+
+n = int(input())
+primeNumber(n)
 
 ```
 ### OUTPUT
+<img width="870" height="204" alt="image" src="https://github.com/user-attachments/assets/9aaf129d-9d4b-4d09-9bde-62b6957b25ab" />
 
 ### RESULT
+Thus, the Python program to check if a number is a Prime number using the concept of functions has been successfully executed and the output is verified.
