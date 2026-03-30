@@ -21,17 +21,18 @@ To create a Python program for printing `n` natural numbers using a `for` loop.
 ### 🧾 Program
 
 ```python
-#Reg.NO
-#Name
+#Reg.NO: 212222060008
+#Name: AISHWARYA K
+a = int(input())
+b = int(input())
+for i in range(a, b + 1):
+    print(i)
 #Write your Code here
 
 ```
 ### OUTPUT
-```
+<img width="898" height="564" alt="image" src="https://github.com/user-attachments/assets/c0b10dae-499d-4b6f-8d75-cb3350a83a4e" />
 
-```
 ### RESULT
-```
 
-```
-
+Thus, the Python program to print numbers from M to N (including M and N values) using a for loop has been successfully executed and the output is verified.
