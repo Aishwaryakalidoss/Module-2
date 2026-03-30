@@ -22,7 +22,19 @@ To write a Python program to compute the power of a given number using an approp
 ### PROGRAM
 
 ```
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+def result(a, b, c):
+    average = (a + b + c) / 3
+    print("average is", average)
+
+a = int(input())
+b = int(input())
+c = int(input())
+result(a, b, c)
 ```
 ### OUTPUT
+<img width="863" height="278" alt="image" src="https://github.com/user-attachments/assets/9ee46ecb-dab4-46a9-8136-f1f64d8e3081" />
 
 ### RESULT
+Thus, the Python program to define a function that accepts 3 values and returns their average has been successfully executed and the output is verified.
